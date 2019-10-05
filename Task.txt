@@ -1,0 +1,9 @@
+Hacer una API que conste de 3 entidades: User, Post, Category.
+Donde un usuario tiene muchos post, un post es escrito por un usuario y un post
+tiene una sola categoria obligatoriamente. Si no existe una categoria, se crea.
+Se debe seguir el patron Active Record.
+Y se debe preparar la base de datos para poder hacer consultas sobre:
+- Busqueda de usuarios por nickname.
+- Busqueda de posts por contenido.
+- Todos los posts de cierto usuario filtrados por categoria o no.
+- Todos los posts de cierta categoria.
